@@ -19,7 +19,7 @@ try:
        EC.presence_of_element_located((By.XPATH, "//body/section[@id='login']/div[1]/div[1]/form[1]/input[2]"))
     )
     username.click()
-    username.send_keys("slambergamer@gmail.com")
+    username.send_keys("username")
 except:
     pass
 
@@ -28,7 +28,7 @@ try:
         EC.presence_of_element_located((By.XPATH, "//body/section[@id='login']/div[1]/div[1]/form[1]/input[3]"))
     )
     password.click()
-    password.send_keys("!yqxeQ2d!qrM5Bt")
+    password.send_keys("pass")
     password.send_keys(Keys.RETURN)
 except:
     pass
